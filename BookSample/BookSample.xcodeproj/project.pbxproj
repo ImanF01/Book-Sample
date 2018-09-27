@@ -13,6 +13,7 @@
 		5F92008A215C9931009461C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F920089215C9931009461C5 /* Assets.xcassets */; };
 		5F92008D215C9931009461C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F92008B215C9931009461C5 /* LaunchScreen.storyboard */; };
 		5F920095215C9946009461C5 /* bookSample.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F920094215C9946009461C5 /* bookSample.json */; };
+		5F920098215C9B0C009461C5 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F920097215C9B0C009461C5 /* Books.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5F92008C215C9931009461C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F92008E215C9931009461C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F920094215C9946009461C5 /* bookSample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bookSample.json; sourceTree = "<group>"; };
+		5F920097215C9B0C009461C5 /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				5F920082215C992A009461C5 /* AppDelegate.swift */,
 				5F920084215C992B009461C5 /* ViewController.swift */,
+				5F920097215C9B0C009461C5 /* Books.swift */,
 				5F920086215C992B009461C5 /* Main.storyboard */,
 				5F920089215C9931009461C5 /* Assets.xcassets */,
 				5F92008B215C9931009461C5 /* LaunchScreen.storyboard */,
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F920098215C9B0C009461C5 /* Books.swift in Sources */,
 				5F920085215C992B009461C5 /* ViewController.swift in Sources */,
 				5F920083215C992A009461C5 /* AppDelegate.swift in Sources */,
 			);
